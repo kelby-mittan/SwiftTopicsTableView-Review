@@ -24,6 +24,17 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         tableView.dataSource = self
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        guard let swiftDVC = segue.destination as? SwiftDetailViewController, let indexPath = tableView.indexPathForSelectedRow else {
+            return
+        }
+        
+        // set country on countryDVC
+//        swiftDVC.topicLabel?.text = swiftTopics[indexPath.row]
+        swiftDVC.title = swiftTopics[indexPath.row]
+    }
 
 
 }

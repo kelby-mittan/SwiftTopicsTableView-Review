@@ -26,6 +26,9 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="vzE-WM-Edl" kind="show" id="hOZ-GO-5Fy"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -47,6 +50,37 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="852.17391304347836" y="115.84821428571428"/>
+        </scene>
+        <!--Swift Detail View Controller-->
+        <scene sceneID="t6m-CW-Is8">
+            <objects>
+                <viewController id="vzE-WM-Edl" customClass="SwiftDetailViewController" customModule="SwiftTopicsTableView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ifc-We-sgP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Topic Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uik-vp-eNQ">
+                                <rect key="frame" x="143.5" y="432.5" width="127.5" height="31.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="uik-vp-eNQ" firstAttribute="centerY" secondItem="Ifc-We-sgP" secondAttribute="centerY" id="2Uo-j3-Zzg"/>
+                            <constraint firstItem="uik-vp-eNQ" firstAttribute="centerX" secondItem="Ifc-We-sgP" secondAttribute="centerX" id="jhd-wC-EkT"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="mAs-ku-dtw"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Tqp-eP-fNd"/>
+                    <connections>
+                        <outlet property="topicLabel" destination="uik-vp-eNQ" id="hC6-Fy-RGn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wLR-0f-O7o" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1795.6521739130437" y="115.84821428571428"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="YZa-1Q-yrR">

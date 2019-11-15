@@ -14,6 +14,7 @@
 		023FC73B237AFD3F00AF7323 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 023FC73A237AFD3F00AF7323 /* Assets.xcassets */; };
 		023FC73E237AFD3F00AF7323 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 023FC73C237AFD3F00AF7323 /* LaunchScreen.storyboard */; };
 		023FC746237B038200AF7323 /* SwiftTopics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023FC745237B038200AF7323 /* SwiftTopics.swift */; };
+		02527E98237EF91C00A67620 /* SwiftDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02527E97237EF91C00A67620 /* SwiftDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		023FC73D237AFD3F00AF7323 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		023FC73F237AFD3F00AF7323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		023FC745237B038200AF7323 /* SwiftTopics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTopics.swift; sourceTree = "<group>"; };
+		02527E97237EF91C00A67620 /* SwiftDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				023FC731237AFD3900AF7323 /* AppDelegate.swift */,
 				023FC733237AFD3900AF7323 /* SceneDelegate.swift */,
 				023FC735237AFD3900AF7323 /* ViewController.swift */,
+				02527E97237EF91C00A67620 /* SwiftDetailViewController.swift */,
 				023FC745237B038200AF7323 /* SwiftTopics.swift */,
 				023FC737237AFD3900AF7323 /* Main.storyboard */,
 				023FC73A237AFD3F00AF7323 /* Assets.xcassets */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				023FC736237AFD3900AF7323 /* ViewController.swift in Sources */,
+				02527E98237EF91C00A67620 /* SwiftDetailViewController.swift in Sources */,
 				023FC732237AFD3900AF7323 /* AppDelegate.swift in Sources */,
 				023FC734237AFD3900AF7323 /* SceneDelegate.swift in Sources */,
 				023FC746237B038200AF7323 /* SwiftTopics.swift in Sources */,
